@@ -1,0 +1,42 @@
+body{
+    margin:0;
+    background-image : url("images/back.jpg");
+    background-repeat : no-repeat;
+    background-size : cover;
+}
+
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    
+}
+.task-list-container{
+    border: 1px solid lightgray;
+}
+
+.tab-type{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.tab-type div{
+    padding: 1em;
+}
+
+#tab-underline{
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    width: 80px;
+    left: 0px;
+    top: 52px;
+    padding: 0px;
+}
+
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
