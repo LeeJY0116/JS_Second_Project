@@ -44,3 +44,7 @@ body{
 .task-done{
     text-decoration: line-through;
 }
+
+.tab-type div{
+    cursor:pointer
+}
